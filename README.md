@@ -8,14 +8,14 @@ The first step is to assemble a chip that can detect whether my iPhone is in my 
 
 | Piece          | Roll                      |
 | -------------- | ------------------------- |
-| Arduino UNO    | Main board.               |
+| Arduino UNO    | Main board                |
 | Funduino W5100 | Ethernet LAN connectivity |
 
 #### Encountered Issues:
 
 ##### iOS WLAN "sleep mode" (WOWLAN)
 
-The iPhone WLAN chip is shut down shortly after the phone is locked. Actually, it's not entirely shut down, but rather enters WOWLAN-mode (wake on wireless lan), so the router still keeps it in it's list of connected devices. It won't enumerate on the network, but if I log in to the router's management console, my iPhone can be seen in the list of attached devices, though without an IP address (only a MAC address).
+The iPhone WLAN chip is shut down shortly after the phone is locked. Actually, it's not entirely shut down, but rather enters WOWLAN-mode (wake on wireless lan), so the router still keeps it in its list of connected devices. It won't enumerate on the network, but if I log in to the router's management console, my iPhone can be seen in the list of attached devices, though without an IP address (only a MAC address).
 
 The obvious solution is to have the Arduino-chip log in to the management console and look through the contents of it, searching for the phone's MAC. Turned out to work decently.
 
