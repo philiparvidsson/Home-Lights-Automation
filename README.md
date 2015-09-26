@@ -6,6 +6,8 @@ This project is an attempt to make my home more intelligent. The idea is to use 
 
 The first step is to assemble a chip that can detect whether my iPhone is in my apartment or not. My initial idea was to use a wifi-chip and a servo to move switches from on to off and back. I quickly abandoned that idea due to multiple issues: wifi requires complex authentication, switches wear out and mechanical solutions are pretty unreliable. Instead, I decided to use a wired ethernet connection to my router, and replace the servo with a 433MHz radio able to control my remote controlled AC adapters.
 
+Code for tihs project can be found in the code-folder, with a simple class for managing the EverFlourish EMW200R switches from Clas Ohlson.
+
 #### Hardware:
 
 | Piece          | Roll                      |
@@ -34,7 +36,7 @@ Coming back to my apartment with the phone in the pocket, in WOWLAN-mode, it doe
 
 I received the radio transmitter and researched the signals required to manipulate the state of my switches. The project is, in essence, complete.
 
-The lights are now turned of ~21 minutes after I leave my apartment, and turned on again within 60 seconds of me coming back.
+The lights are now turned off ~21 minutes after I leave my apartment, and turned on again within 60 seconds of me coming back.
 
 #### Plans:
 
