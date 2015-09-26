@@ -1,5 +1,7 @@
 ## Is Philip's phone at home?
 
+<img align="right" alt="" src="https://raw.githubusercontent.com/philiparvidsson/phil-phone-home/master/photos/DSC_9461.jpg" width="280px" height="280px" />
+
 This project is an attempt to make my home more intelligent. The idea is to use an Arduino UNO to detect whether my iPhone is at home, and use that information to manage lamps and such.
 
 The first step is to assemble a chip that can detect whether my iPhone is in my apartment or not. My initial idea was to use a wifi-chip and a servo to move switches from on to off and back. I quickly abandoned that idea due to multiple issues: wifi requires complex authentication, switches wear out and mechanical solutions are pretty unreliable. Instead, I decided to use a wired ethernet connection to my router, and replace the servo with a 433MHz radio able to control my remote controlled AC adapters.
@@ -38,3 +40,4 @@ The lights are now turned of ~21 minutes after I leave my apartment, and turned 
 
 * Disassembling the EMW200R switches and mounting them in ceiling lights. Shouldn't be very hard, haven't looked into it.
 * Improving the telnet server with some statistics command for uptime, error rate, etc.
+* 3D-print a case for the device.
