@@ -32,6 +32,10 @@ I've had issues with my WNDR3700 throughout the years. A couple of freezes, rand
 
 Coming back to my apartment with the phone in the pocket, in WOWLAN-mode, it does not reconnect automatically to the wireless network. Easy fix: Just press the home button once and it immediately wakes up and reconnects. Can easily be done with phone in pocket. :-)
 
+##### Weak RF signals
+
+The radio signals were a bit too weak and some units did not receive them clearly enough to be able to act on them. I took 20cm of speaker wire (copper) and mounted in the antenna connection on the XD-FST, which boosted the signal strength enough to easily reach everywhere in my apartment.
+
 #### Current state of the project:
 
 I received the radio transmitter and researched the signals required to manipulate the state of my switches. The project is, in essence, complete.
