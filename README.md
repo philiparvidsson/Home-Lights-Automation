@@ -30,6 +30,11 @@ Coming back to my apartment with the phone in the pocket, in WOWLAN-mode, it doe
 
 #### Current state of the project:
 
-I received the radio transmitter and researched the signals required to manipulate the state of my switches. The project is, in essence, complete. Although I plan on cleaning up and improving the code somewhat in the future.
+I received the radio transmitter and researched the signals required to manipulate the state of my switches. The project is, in essence, complete.
 
 The lights are now turned of ~21 minutes after I leave my apartment, and turned on again within 60 seconds of me coming back.
+
+#### Plans:
+
+* Disassembling the EMW200R switches and mounting them in ceiling lights. Shouldn't be very hard, haven't looked into it.
+* Improving the telnet server with some statistics command for uptime, error rate, etc.
