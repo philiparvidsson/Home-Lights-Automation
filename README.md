@@ -10,6 +10,7 @@ The first step is to assemble a chip that can detect whether my iPhone is in my 
 | -------------- | ------------------------- |
 | Arduino UNO    | Main board                |
 | Funduino W5100 | Ethernet LAN connectivity |
+| XD-FST         | Radio freq. transmission  |
 
 #### Encountered Issues:
 
@@ -19,6 +20,16 @@ The iPhone WLAN chip is shut down shortly after the phone is locked. Actually, i
 
 The obvious solution is to have the Arduino-chip log in to the management console and look through the contents of it, searching for the phone's MAC. Turned out to work decently.
 
+##### Old and tired WNDR3700 router
+
+I've had issues with my WNDR3700 throughout the years. A couple of freezes, random reboots, web interface hangs, inability to update device lists etc. The issues have become more frequent over time, so I'm guessing it's got a screw loose somewhere. Either way, an issue that got in the way of this project was that the router would randomly not respond (or send an empty response) to the Arduino when it requested the device list. I came up with an easy fix: Determine my status (home or not) multiple times and require they all come up negative, to be sure. Ie, finding that I'm not home once doesn't result in it turning the lights of. Finding that I'm not home three times in a row, does. Easy fix, so I'm content.
+
+##### iOS WOWLAN does not reconnect to Wi-Fi
+
+Coming back to my apartment with the phone in the pocket, in WOWLAN-mode, it does not reconnect automatically to the wireless network. Easy fix: Just press the home button once and it immediately wakes up and reconnects. Can easily be done with phone in pocket. :-)
+
 #### Current state of the project:
 
-The Arduino now logs in to the router and detects whether my phone is at home or not. The radio transmitter has been ordered and should arrive within a couple of weeks. My current plan is to record a signal from the RF remote that controls the remote controlled AC adapters, save it, and then play it back when needed to turn them on or off.
+I received the radio transmitter and researched the signals required to manipulate the state of my switches. The project is, in essence, complete. Although I plan on cleaning up and improving the code somewhat in the future.
+
+The lights are now turned of ~21 minutes after I leave my apartment, and turned on again within 60 seconds of me coming back.
