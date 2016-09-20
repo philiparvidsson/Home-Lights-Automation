@@ -44,6 +44,7 @@ The lights are now turned off ~21 minutes after I leave my apartment, and turned
 
 #### Plans:
 
-* ~~Disassembling the EMW200R switches and mounting them in ceiling lights. Shouldn't be very hard, haven't looked into it.~~ (Completed May 2016).
-* ~~Improving the telnet server with some statistics command for uptime, error rate, etc.~~ (Completed May 2016).
+* ~~Disassembling the EMW200R switches and mounting them in ceiling lights. Shouldn't be very hard, haven't looked into it.~~ 
+*Completed May 2016*
+* ~~Improving the telnet server with some statistics command for uptime, error rate, etc.~~ *Completed May 2016*
 * 3D-print a case for the device.
