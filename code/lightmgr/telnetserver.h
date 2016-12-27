@@ -5,7 +5,8 @@
 
 namespace telnet {
 
-typedef void (*TelnetCmdFn)(class TelnetServer& server, const char* args[]);
+typedef void (*TelnetCmdFn)(class TelnetServer& server, char* args[],
+                            int num_args);
 
 class TelnetServer {
 
@@ -36,6 +37,8 @@ private:
   char m_command[64];
 
   commandT* m_commands;
+
+  int parseArgs(char* str, char* args[], int num_max_args);
 };
 
 }
