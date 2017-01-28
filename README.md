@@ -36,13 +36,13 @@ Coming back to my apartment with the phone in the pocket, in WOWLAN-mode, it doe
 
 The radio signals were a bit too weak and some units did not receive them clearly enough to be able to act on them. I took 20cm of speaker wire (copper) and mounted in the antenna connection on the XD-FST, which boosted the signal strength enough to easily reach everywhere in my apartment.
 
-#### Current state of the project:
+## Current state of the project:
 
 I received the radio transmitter and researched the signals required to manipulate the state of my switches. The project is, in essence, complete.
 
 The lights are now turned off ~21 minutes after I leave my apartment, and turned on again within 60 seconds of me coming back.
 
-#### Plans:
+### Plans:
 
 * ~~Disassembling the EMW200R switches and mounting them in ceiling lights. Shouldn't be very hard, haven't looked into it.~~ 
 *Completed May 2016*
