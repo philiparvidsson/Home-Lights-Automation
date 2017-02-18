@@ -1,4 +1,4 @@
-## Is Philip's phone at home?
+## Automation of Household Electronics
 
 <img align="right" alt="" src="https://raw.githubusercontent.com/philiparvidsson/phil-phone-home/master/photos/DSC_9461.jpg" width="280px" height="280px" />
 
