@@ -8,6 +8,12 @@ The first step is to assemble a chip that can detect whether my iPhone is in my 
 
 Code for this project can be found in the code-folder, with a simple class for managing the EverFlourish EMW200R switches from Clas Ohlson.
 
+### Video:
+
+[![Controlling lights manually](https://img.youtube.com/vi/anmDG1T86Gg/0.jpg)](https://youtu.be/anmDG1T86Gg)
+
+The video shows me controlling a couple of lamps at home via the Arduino telnet server that I implemented as a network interface for the system. The more interesting part of the project—automatic management of household electronics; the fact that all electronics in my apartment are turned of when I leave my home—is hard to illustrate with a video.
+
 #### Hardware:
 
 | Piece          | Roll                      |
