@@ -12,7 +12,7 @@ Code for this project can be found in the code-folder, with a simple class for m
 
 [![Controlling lights manually](https://img.youtube.com/vi/anmDG1T86Gg/0.jpg)](https://youtu.be/anmDG1T86Gg)
 
-The video shows me controlling a couple of lamps at home via the Arduino telnet server that I implemented as a network interface for the system. The more interesting part of the project—automatic management of household electronics; the fact that all electronics in my apartment are turned of when I leave my home—is hard to illustrate with a video.
+The video shows me controlling a couple of lamps at home via the Arduino telnet server that I implemented as a network interface for the system. The more interesting part of the project—automatic management of household electronics; the fact that all electronics in my apartment are turned off when I leave my home—is hard to illustrate with a video.
 
 #### Hardware:
 
