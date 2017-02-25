@@ -2,9 +2,9 @@
 
 <img align="right" alt="" src="https://raw.githubusercontent.com/philiparvidsson/phil-phone-home/master/photos/DSC_9461.jpg" width="280px" height="280px" />
 
-This project is an attempt to make my home more intelligent. The idea is to use an Arduino UNO to detect whether my iPhone is at home, and use that information to manage lamps and such.
+This project was an attempt to make my home more intelligent. The idea was to use an Arduino UNO to detect whether my iPhone is at home, and use that information to manage lamps and such.
 
-The first step is to assemble a chip that can detect whether my iPhone is in my apartment or not. My initial idea was to use a wifi-chip and a servo to move switches from on to off and back. I quickly abandoned that idea due to multiple issues: wifi requires complex authentication, switches wear out and mechanical solutions are pretty unreliable. Instead, I decided to use a wired ethernet connection to my router, and replace the servo with a 433MHz radio able to control my remote controlled AC adapters.
+The first step was to assemble a chip that can detect whether my iPhone is in my apartment or not. My initial idea was to use a wifi-chip and a servo to move switches from on to off and back. I quickly abandoned that idea due to multiple issues: wifi requires complex authentication, switches wear out and mechanical solutions are pretty unreliable. Instead, I decided to use a wired ethernet connection to my router, and replace the servo with a 433MHz radio able to control my remote controlled AC adapters.
 
 Code for this project can be found in the code-folder, with a simple class for managing the EverFlourish EMW200R switches from Clas Ohlson.
 
@@ -36,7 +36,7 @@ I've had issues with my WNDR3700 throughout the years. A couple of freezes, rand
 
 ##### iOS WOWLAN does not reconnect to Wi-Fi
 
-Coming back to my apartment with the phone in the pocket, in WOWLAN-mode, it does not reconnect automatically to the wireless network. Easy fix: Just press the home button once and it immediately wakes up and reconnects. Can easily be done with phone in pocket. :-)
+Coming back to my apartment with the phone in the pocket, in WOWLAN-mode, it does not reconnect automatically to the wireless network. Easy fix: Just press the home button once and it immediately wakes up and reconnects. Can easily be done with phone in pocket.
 
 ##### Weak RF signals
 
