@@ -14,7 +14,7 @@ Code for this project can be found in the code-folder, with a simple class for m
 
 The video shows me controlling a couple of lamps at home via the Arduino telnet server that I implemented as a network interface for the system. The more interesting part of the project—automatic management of household electronics; the fact that all electronics in my apartment are turned off when I leave my home—is hard to illustrate with a video.
 
-#### Hardware:
+### Hardware:
 
 | Piece          | Roll                      |
 | -------------- | ------------------------- |
