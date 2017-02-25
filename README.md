@@ -8,7 +8,7 @@ The first step was to assemble a chip that can detect whether my iPhone is in my
 
 Code for this project can be found in the code-folder, with a simple class for managing the EverFlourish EMW200R switches from Clas Ohlson.
 
-### Video:
+## Video
 
 [![Controlling lights manually](https://img.youtube.com/vi/anmDG1T86Gg/0.jpg)](https://youtu.be/anmDG1T86Gg)
 
